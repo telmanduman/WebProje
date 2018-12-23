@@ -1,0 +1,155 @@
+.header {
+	position:fixed;
+ 	top:0;
+	left:0;
+	height:40px;
+ 	width:100%;
+	background-color: #e8491d;
+	display: flex;
+	color: #61a4c8;
+}
+.header input {
+	background-color: #FFF0F5; 
+	margin-left: 130px; 
+	border-radius: 14px; 
+	border-color: #224B7A; 
+	border-style: none; 
+	height: 25px;
+	width: 220px;
+	margin-top: 8px;
+	padding-left: 30px;
+	color: #e6e6e6;
+	outline: none;
+}
+.icon {
+	position: absolute;
+    top: 13px;
+    left: 365px;
+}
+.header a:hover {
+	background-color: #2d629f;
+}
+.col {
+	color: #61a4c8;
+}
+.col input:focus{
+	background-color: white;
+	color: black;
+}
+.A1 {
+	color: white; 
+	margin-left: 190px;
+	font-size: 35px;  
+	margin-top: 2px
+}
+.A {
+	color: #224B7A; 
+	margin-left: 25px; 
+	font-size: 18px;  
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 12px;
+}
+.menu {
+	float: left;
+	margin-left: 140px;
+}
+.B {
+	font-size: 12.5px;
+	margin-left: 10px;  
+	color: #285473;
+}
+.menu a:link {
+	text-decoration: none;
+	color: #99b1c6;
+
+}
+.menu a:hover {
+    background-color: #dee6ed;
+  
+}
+.menu ul li{
+	margin-top: 5px;
+	font-size: 12.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+.menu ul li:first-child{
+	margin-top: 60px;
+}
+.lin a{
+	text-decoration: none;
+	color: #99b1c6;
+	font-size: 11px;
+	font-weight: 200;
+}
+.lin a:hover {
+	text-decoration: underline;
+	color: #99b1c6;
+}
+.post {
+	float: left;
+	background-color: white;
+	border: 0.5px solid #dee6ed;
+	border-radius: 1px;
+	width: 45%;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 60px;
+	font-size: 13px;
+	color: #82868a;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.post input {
+	border-style: none; 
+	outline: none; 
+}
+.post input:focus {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.news {
+	float: left;
+	background-color: white;
+	padding-top: 10px;
+	padding-left: 15px;
+	width: 44.7%;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 0.5px solid #dee6ed;
+	border-radius: 1px;
+	font-size: 13px;
+	color: #82868a;
+}
+#new {
+    margin-top: 10px;
+}
+.r {
+	float: left;
+	position: fixed;
+	left: 920px;
+	background-color: white;
+	border: 0.5px solid #dee6ed;
+	margin-left: 15px;
+	margin-top: 60px;
+	margin-right: 190px;
+	width: 220px;
+}
+.r a:link {
+	text-decoration: none;
+	color: #285473;
+}
+.r a:hover {
+    background-color: #c2cad6;
+    border: 0.5px solid #c2cad6;
+}
+.r ul li{
+	margin-top: 15px;
+	font-size: 12.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    color: #2a5885;
+}
